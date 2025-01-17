@@ -44,21 +44,24 @@ export default function SearchScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#403636',
   },
   searchBar: {
     height: 40,
-    borderColor: '#ccc',
-    borderWidth: 1,
+    borderColor: '#fff',
+    borderWidth: 2,
     margin: 10,
-    borderRadius: 5,
+    borderRadius: 8,
     paddingHorizontal: 10,
+    color: '#fff',
+    backgroundColor: '#333',
   },
+
   item: {
     flexDirection: 'row',
     padding: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: '#fff',
   },
   thumbnail: {
     width: 100,
@@ -71,9 +74,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',
+    color: '#fff'
   },
   summary: {
     fontSize: 14,
-    color: '#555',
+    color: '#fff',
   },
 });

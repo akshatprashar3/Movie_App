@@ -43,15 +43,17 @@ export default function HomeScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#403636',
+    backgroundColor: '#170b0b',
   },
   searchBar: {
     height: 40,
-    borderColor: '#ccc',
-    borderWidth: 1,
+    borderColor: '#fff',
+    borderWidth: 2,
     margin: 10,
-    borderRadius: 5,
+    borderRadius: 8,
     paddingHorizontal: 10,
+    color: '#fff',
+    backgroundColor: '#333',
   },
   
   item: {

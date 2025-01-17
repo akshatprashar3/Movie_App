@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     padding: 10,
-    backgroundColor: '#fff',
+    backgroundColor: '#403636',
   },
   image: {
     width: '100%',
@@ -32,9 +32,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
+    color: '#fff'
   },
   summary: {
     fontSize: 16,
-    color: '#555',
+    color: '#fff',
   },
 });

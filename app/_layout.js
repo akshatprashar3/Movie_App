@@ -1,4 +1,3 @@
-import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../components/home';
 import Search from '../components/search';

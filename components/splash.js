@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-import logo from '../assets/images/movie.png.jpg'
+import logo from '../assets/images/movie.png.png'
 
 export default function Splash({ navigation }) {
   useEffect(() => {
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f2f2f2',
+    backgroundColor: '#170b0b',
   },
   image: {
     width: 250,
@@ -32,5 +32,6 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: '#e8333a'
   },
 });
